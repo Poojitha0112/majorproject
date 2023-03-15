@@ -1,11 +1,12 @@
 // Your web app's Firebase configuration
 var firebaseConfig = {
-  apiKey: "AIzaSyDUTgqbHDfQHC6Nav6K2EgOhAYGSk7hmeI",
-  authDomain: "authtest-75624.firebaseapp.com",
-  projectId: "authtest-75624",
-  storageBucket: "authtest-75624.appspot.com",
-  messagingSenderId: "522422328170",
-  appId: "1:522422328170:web:40c7fe5f75b6ac59a46313",
+  apiKey: "AIzaSyBX9AeMZL6IwRB00hP-mRWN22p6B3lYhy0",
+  authDomain: "videoapp-371204.firebaseapp.com",
+  projectId: "videoapp-371204",
+  storageBucket: "videoapp-371204.appspot.com",
+  messagingSenderId: "25143733431",
+  appId: "1:25143733431:web:b692b2ab36886b2ec5b132",
+  measurementId: "G-M10HNC2GT4",
 };
 // Initialize Firebase
 
