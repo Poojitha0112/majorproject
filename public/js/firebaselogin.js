@@ -1,13 +1,15 @@
 // Your web app's Firebase configuration
-var firebaseConfig = {
+const firebaseConfig = {
   apiKey: "AIzaSyBX9AeMZL6IwRB00hP-mRWN22p6B3lYhy0",
   authDomain: "videoapp-371204.firebaseapp.com",
   projectId: "videoapp-371204",
   storageBucket: "videoapp-371204.appspot.com",
   messagingSenderId: "25143733431",
-  appId: "1:25143733431:web:b692b2ab36886b2ec5b132",
-  measurementId: "G-M10HNC2GT4",
+  appId: "1:25143733431:web:45f8e8cad33e8798c5b132",
+  measurementId: "G-VFD2FTHH5B"
 };
+
+
 // Initialize Firebase
 
 if (!firebase.apps.length) {
