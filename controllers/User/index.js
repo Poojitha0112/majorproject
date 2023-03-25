@@ -26,6 +26,7 @@ const createUser = async (req, res) => {
 // when retrieving users we populate their recent rooms
 // for displaying on their home page, the rooms they visited
 // which they can quickly re-access
+
 const getUser = async (req, res) => {
   console.log(req.body);
 
@@ -48,6 +49,7 @@ const getUser = async (req, res) => {
 // everytime a user visits a room
 // we add it to the set of visited rooms 👆🏻 (in an LRU-ish fashion)
 // that can be retreived to visit again (max prev. rooms = 7)
+
 const addRooms = async (req, res) => {
   console.log(req.body);
   const { email, roomId } = req.body;
@@ -79,5 +81,5 @@ const addRooms = async (req, res) => {
 module.exports = {
   createUser,
   getUser,
-  addRooms,
+ addRooms,
 };

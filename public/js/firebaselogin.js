@@ -1,4 +1,5 @@
 // Your web app's Firebase configuration
+/*
 const firebaseConfig = {
   apiKey: "AIzaSyBX9AeMZL6IwRB00hP-mRWN22p6B3lYhy0",
   authDomain: "videoapp-371204.firebaseapp.com",
@@ -7,6 +8,15 @@ const firebaseConfig = {
   messagingSenderId: "25143733431",
   appId: "1:25143733431:web:45f8e8cad33e8798c5b132",
   measurementId: "G-VFD2FTHH5B"
+};*/
+const firebaseConfig = {
+  apiKey: "AIzaSyAnYsXUgy9T1KIeTck5vRup4Hf6rJVM8tU",
+  authDomain: "unite-377308.firebaseapp.com",
+  projectId: "unite-377308",
+  storageBucket: "unite-377308.appspot.com",
+  messagingSenderId: "149177508587",
+  appId: "1:149177508587:web:81731cd2805679748654ae",
+  measurementId: "G-75LMS4X7D5"
 };
 
 
